@@ -1,0 +1,16 @@
+{
+  "name": "wc-static",
+  "version": "0.1.0",
+  "description": "Generates HTML from Web Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moandji Ezana",
+  "license": "MIT",
+  "dependencies": {
+    "nodejs-fs-utils": "^1.2.5",
+    "puppeteer": "^5.2.1",
+    "recursive-readdir": "^2.2.2"
+  }
+}
