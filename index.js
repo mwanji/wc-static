@@ -21,7 +21,8 @@ const puppeteer = require('puppeteer');
     const html = await page.evaluate(() => {
       return new XMLSerializer().serializeToString(document);
     });
-    fs.writeFileSync(copyPath, html);
+    const output = html.replace(/<script src="(.*)"><\/script>/gi, '')
+    fs.writeFileSync(copyPath, output);
   }
 
   const cssPaths = await readdir('.', [(file, stats) => !stats.isDirectory() && !file.endsWith('.css')])

@@ -12,6 +12,6 @@ Of course, I don't _really_ want to write my website entirely by hand: there's t
 
 Web components provide a standard way of dealing with duplication and dynamic content. Great! Perfectly acceptable, if you don't mind needing JavaScript to display a simple website's content. Only, I didn't want to require JavaScript, not even vanilla JavaScript.
 
-wc-static aims to give you the best of both worlds: author DRY HTML code thanks to web components, distribute plain HTML with no JavaScript.
+wc-static aims to give you the best of both worlds: author and test DRY HTML code with no extra tooling thanks to web components, distribute plain HTML with no JavaScript.
 
 Think of it as a static site generator that makes static sites even more static.
